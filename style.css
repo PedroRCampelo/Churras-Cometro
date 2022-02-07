@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+body{
+
+    background-color: #ff8b8b8e;
+    background-image: url(assests/bkg2.png) ;
+}
+
+header{
+    height: 90px;
+    background-color: #ffffff;
+    border-bottom: 4px solid red;
+}
+
+.menu{
+    font-family: 'Noto Sans', sans-serif;
+    margin-right: 140px;
+    margin-top: 25px;
+    float: right;
+    color: #560b0b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.menu a{
+    color: #9D1616;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-shadow: 3px 3px 3px #000000;
+    color: #ffffff;
+}
+
+
+.container{
+    
+    margin: auto;
+    margin-top: 50px;
+    height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    background-color: #000000c5;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 30px;
+    
+    
+}
+
+.logo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#logoHeader{
+
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+input{
+
+    font-size: 17px;
+    border-radius: 50px;
+    margin: auto;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    text-align: center;
+
+}
+
+button{
+
+    border-radius: 20px;
+    background-color: #FFB400;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+#infos{
+
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#resultado{
+
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h1{
+
+    margin-left: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 30px;
+    float: left;
+    font-size: 110px;
+}
+
+#resultado{
+
+    color: white
+}
+
+footer{
+
+    margin-top: 50px;
+    background-color: #666666;
+}
+
+

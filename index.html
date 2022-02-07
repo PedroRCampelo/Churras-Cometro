@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assests/favicon.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header onmouseover="mouseOver()" onmouseout="mouseOut()">
+        <img id="logoHeader" src="assests/logoV.png" width="250px" alt="logo">
+        <div class="menu">
+            <a href="">COMPRE CONOSCO |</a>
+            <a href="">CONTATO |</a>
+            <a href="">COMPRE ONLINE |</a>
+            <a href="">LOCALIZAÇÃO</a>
+
+        </div>
+
+    </header>
+
+    <section id="mid">
+
+        <div class="container">
+
+            <div class="logo"> <img src="assests/logo.png" width="250px"></div>
+
+            <div id="infos">
+                <p>Quantidade de adultos</p>
+                <input type="number" id="adults" name="adults" placeholder="Adultos">
+                <p>Quantidade de crianças</p>
+                <input type="number" id="kids" name="kids" placeholder="Crianças">
+                <p>Horas de duração em horas</p>
+                <input type="number" id="time" name="time" placeholder="Duração">
+
+                <button onclick="calcular()">Calcular</button>
+            </div>
+
+            <div id="resultado"></div>
+
+        </div>
+
+    </section>
+  
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
