@@ -5,37 +5,34 @@
 
 let mouseOver = function(){
 
-    let header = document.getElementsByTagName ("header")[0];
+    let header = document.getElementById("header");
     header.style.backgroundColor = "#9D1616";
-
-    let menu = document.querySelectorAll ("a");
 
     let logoHeader = document.getElementById("logoHeader")
     logoHeader.setAttribute ("src", "assests/logo.png")
 
-    for (i in menu){
-        
-        menu[i].style.color = "#fff"
+    let menu = document.getElementsByTagName("a")
+
+    for (let i=0; i < menu.length; i++){
+        menu[i].style.color = "#fff"        
     }
     
 }
 
 let mouseOut = function(){
 
-    let header = document.getElementsByTagName ("header")[0];
+    let header = document.getElementById("header");
     header.style.backgroundColor = "white"
-
-    let menu = document.getElementsByTagName ("a")
 
     let logoHeader = document.getElementById("logoHeader")
     logoHeader.setAttribute ("src", "assests/logoV.png")
 
-    for (i in menu){
-    
-        menu[i].style.color = "#9D1616"
+    let menu = document.getElementsByTagName ("a")
+
+     for (let i=0; i < menu.length; i++){
+        menu[i].style.color = "#9D1616"        
     }
 
-    
 }
 
 
