@@ -13,6 +13,7 @@ let mouseOver = function(){
 
     let menu = document.getElementsByTagName("a")
 
+    // Correção do erro se deu na forma com que puxamos o length. (o for in não estava puxando apenas o "length").
     for (let i=0; i < menu.length; i++){
         menu[i].style.color = "#fff"        
     }
@@ -29,6 +30,7 @@ let mouseOut = function(){
 
     let menu = document.getElementsByTagName ("a")
 
+    // Correção do erro se deu na forma com que puxamos o length. (o for in não estava puxando apenas o "length").
      for (let i=0; i < menu.length; i++){
         menu[i].style.color = "#9D1616"        
     }

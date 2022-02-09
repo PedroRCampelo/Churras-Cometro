@@ -70,9 +70,9 @@ header{
 input{
 
     font-size: 17px;
-    border-radius: 50px;
+    border-radius: 10px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     display: block;
     width: 300px;
     text-align: center;
@@ -81,13 +81,13 @@ input{
 
 button{
 
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #FFB400;
     margin: auto;
     padding: 10px;
     margin-top: 20px;
     display: block;
-    width: 300px;
+    width: 200px;
     text-align: center;
 }
 
