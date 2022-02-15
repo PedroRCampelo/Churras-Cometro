@@ -8,10 +8,13 @@
 body{
 
     background-color: #ff8b8b8e;
-    background-image: url(assests/bkg2.png) ;
+    background-image: url(assests/bkg2.png);
 }
 
 header{
+    width: 100%;
+    top: 0px;
+    position: fixed;
     height: 90px;
     background-color: #ffffff;
     border-bottom: 4px solid red;
@@ -43,7 +46,7 @@ header{
 .container{
     
     margin: auto;
-    margin-top: 50px;
+    margin-top: 160px;
     height: 700px;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 400px;
