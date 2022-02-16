@@ -8,53 +8,26 @@
 body{
 
     background-color: #ff8b8b8e;
-    background-image: url(assests/bkg2.png);
+    /* background-color: white; */
 }
 
-header{
-    width: 100%;
-    top: 0px;
-    position: fixed;
-    height: 90px;
-    background-color: #ffffff;
-    border-bottom: 4px solid red;
-}
 
-.menu{
-    font-family: 'Noto Sans', sans-serif;
-    margin-right: 140px;
-    margin-top: 25px;
-    float: right;
-    color: #560b0b;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 25px;
-    padding: 5px;
-}
 
-.menu a{
-    color: #9D1616;
-    text-decoration: none;
-}
-
-.menu a:hover{
-    text-shadow: 3px 3px 3px #000000;
-    
-}
 
 
 .container{
     
     margin: auto;
     margin-top: 160px;
-    height: 700px;
+    max-width: 50%;
+    max-height: 50%;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 400px;
-    background-color: #000000c5;
+    background-color: #a3f4ffc5;
     background-repeat: no-repeat;
     padding: 20px;
-    border-radius: 30px;
-    
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     
 }
 
@@ -62,12 +35,6 @@ header{
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
-}
-
-#logoHeader{
-
-    margin-top: 20px;
-    margin-left: 30px;
 }
 
 input{
@@ -85,9 +52,10 @@ input{
 button{
 
     border-radius: 10px;
-    background-color: #FFB400;
+    background-color: #960606;
     margin: auto;
     padding: 10px;
+    color: white;
     margin-top: 20px;
     display: block;
     width: 200px;
@@ -110,30 +78,17 @@ button{
 
 
 p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 15px;
     margin-bottom: 5px;
 }
 
-h1{
-
-    margin-left: 25px;
-    font-family: 'Noto Sans', sans-serif;
-    margin-top: 30px;
-    float: left;
-    font-size: 110px;
-}
 
 #resultado{
 
     color: white
 }
 
-footer{
 
-    margin-top: 50px;
-    background-color: #666666;
-}
-
-
+@media 

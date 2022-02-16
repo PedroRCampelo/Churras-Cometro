@@ -3,39 +3,39 @@
 // Refrigerante / água - 1000ml por pessoa / Caso dure + de 6 horas - 1500ml
 // Crianças valem por 0,5
 
-let mouseOver = function(){
+// let mouseOver = function(){
 
-    let header = document.getElementById("header");
-    header.style.backgroundColor = "#9D1616";
+//     let header = document.getElementById("header");
+//     header.style.backgroundColor = "#9D1616";
 
-    let logoHeader = document.getElementById("logoHeader")
-    logoHeader.setAttribute ("src", "assests/logo.png")
+//     let logoHeader = document.getElementById("logoHeader")
+//     logoHeader.setAttribute ("src", "assests/logo.png")
 
-    let menu = document.getElementsByTagName("a")
+//     let menu = document.getElementsByTagName("a")
 
-    // Correção do erro se deu na forma com que puxamos o length. (o for in não estava puxando apenas o "length").
-    for (let i=0; i < menu.length; i++){
-        menu[i].style.color = "#fff"        
-    }
+//     // Correção do erro se deu na forma com que puxamos o length. (o for in não estava puxando apenas o "length").
+//     for (let i=0; i < menu.length; i++){
+//         menu[i].style.color = "#fff"        
+//     }
     
-}
+// }
 
-let mouseOut = function(){
+// let mouseOut = function(){
 
-    let header = document.getElementById("header");
-    header.style.backgroundColor = "white"
+//     let header = document.getElementById("header");
+//     header.style.backgroundColor = "white"
 
-    let logoHeader = document.getElementById("logoHeader")
-    logoHeader.setAttribute ("src", "assests/logoV.png")
+//     let logoHeader = document.getElementById("logoHeader")
+//     logoHeader.setAttribute ("src", "assests/logoV.png")
 
-    let menu = document.getElementsByTagName ("a")
+//     let menu = document.getElementsByTagName ("a")
 
-    // Correção do erro se deu na forma com que puxamos o length. (o for in não estava puxando apenas o "length").
-     for (let i=0; i < menu.length; i++){
-        menu[i].style.color = "#9D1616"        
-    }
+//     // Correção do erro se deu na forma com que puxamos o length. (o for in não estava puxando apenas o "length").
+//      for (let i=0; i < menu.length; i++){
+//         menu[i].style.color = "#9D1616"        
+//     }
 
-}
+// }
 
 
 
